@@ -1,0 +1,443 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\91834\\source\\repos\\TaskManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\dataaccesslayer\\repositories\\taskrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\taskrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCC7CE0-06C0-4D8C-B1C1-EB565EA9A471}|TaskManager\\TaskManagerAPI.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\taskmanager\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCC7CE0-06C0-4D8C-B1C1-EB565EA9A471}|TaskManager\\TaskManagerAPI.csproj|solutionrelative:taskmanager\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8947C8-D40B-4609-81AB-5410A70BBF97}|EntityLayer\\EntityLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\entitylayer\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8947C8-D40B-4609-81AB-5410A70BBF97}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8947C8-D40B-4609-81AB-5410A70BBF97}|EntityLayer\\EntityLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\entitylayer\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8947C8-D40B-4609-81AB-5410A70BBF97}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCC7CE0-06C0-4D8C-B1C1-EB565EA9A471}|TaskManager\\TaskManagerAPI.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\taskmanager\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCC7CE0-06C0-4D8C-B1C1-EB565EA9A471}|TaskManager\\TaskManagerAPI.csproj|solutionrelative:taskmanager\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\dataaccesslayer\\migrations\\20241015104844_sevenmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20241015104844_sevenmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730F1275-F6EB-4D75-BFC6-14C47E436410}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\businesslayer\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730F1275-F6EB-4D75-BFC6-14C47E436410}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8947C8-D40B-4609-81AB-5410A70BBF97}|EntityLayer\\EntityLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\entitylayer\\interfaces\\itaskrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8947C8-D40B-4609-81AB-5410A70BBF97}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\interfaces\\itaskrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8947C8-D40B-4609-81AB-5410A70BBF97}|EntityLayer\\EntityLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\entitylayer\\models\\taskdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8947C8-D40B-4609-81AB-5410A70BBF97}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\models\\taskdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\dataaccesslayer\\repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730F1275-F6EB-4D75-BFC6-14C47E436410}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\businesslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{730F1275-F6EB-4D75-BFC6-14C47E436410}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8947C8-D40B-4609-81AB-5410A70BBF97}|EntityLayer\\EntityLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\entitylayer\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE8947C8-D40B-4609-81AB-5410A70BBF97}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCC7CE0-06C0-4D8C-B1C1-EB565EA9A471}|TaskManager\\TaskManagerAPI.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DCC7CE0-06C0-4D8C-B1C1-EB565EA9A471}|TaskManager\\TaskManagerAPI.csproj|solutionrelative:taskmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCC7CE0-06C0-4D8C-B1C1-EB565EA9A471}|TaskManager\\TaskManagerAPI.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\taskmanager\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3DCC7CE0-06C0-4D8C-B1C1-EB565EA9A471}|TaskManager\\TaskManagerAPI.csproj|solutionrelative:taskmanager\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCC7CE0-06C0-4D8C-B1C1-EB565EA9A471}|TaskManager\\TaskManagerAPI.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\taskmanager\\taskmanagerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3DCC7CE0-06C0-4D8C-B1C1-EB565EA9A471}|TaskManager\\TaskManagerAPI.csproj|solutionrelative:taskmanager\\taskmanagerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCC7CE0-06C0-4D8C-B1C1-EB565EA9A471}|TaskManager\\TaskManagerAPI.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\taskmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3DCC7CE0-06C0-4D8C-B1C1-EB565EA9A471}|TaskManager\\TaskManagerAPI.csproj|solutionrelative:taskmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\dataaccesslayer\\data\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DCC7CE0-06C0-4D8C-B1C1-EB565EA9A471}|TaskManager\\TaskManagerAPI.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\taskmanager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3DCC7CE0-06C0-4D8C-B1C1-EB565EA9A471}|TaskManager\\TaskManagerAPI.csproj|solutionrelative:taskmanager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{730F1275-F6EB-4D75-BFC6-14C47E436410}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{730F1275-F6EB-4D75-BFC6-14C47E436410}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE8947C8-D40B-4609-81AB-5410A70BBF97}|EntityLayer\\EntityLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\entitylayer\\entitylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DE8947C8-D40B-4609-81AB-5410A70BBF97}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\entitylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\dataaccesslayer\\migrations\\20241013175513_fifthmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20241013175513_fifthmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\dataaccesslayer\\migrations\\20241013100059_fourthmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20241013100059_fourthmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\dataaccesslayer\\migrations\\20241013093807_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20241013093807_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\dataaccesslayer\\migrations\\20241013095215_thirdmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20241013095215_thirdmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\dataaccesslayer\\migrations\\20241013094356_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20241013094356_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\91834\\source\\repos\\taskmanager\\dataaccesslayer\\migrations\\20241014174733_sixthmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0E5CF5-EE95-4344-BBB7-F25FA292F0C8}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\20241014174733_sixthmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskDetails.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\Models\\TaskDetails.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Models\\TaskDetails.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\Models\\TaskDetails.cs",
+              "RelativeToolTip": "EntityLayer\\Models\\TaskDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:42:21.264Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Repositories\\UserRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\UserRepo.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Repositories\\UserRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\UserRepo.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:46:22.156Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\TaskManager\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Program.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\TaskManager\\Program.cs",
+              "RelativeToolTip": "TaskManager\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:58:40.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\Models\\Users.cs",
+              "RelativeToolTip": "EntityLayer\\Models\\Users.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:40:43.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\TaskManager\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\TaskManager\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "TaskManager\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwBcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:50:30.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\Interfaces\\IUserRepo.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Interfaces\\IUserRepo.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\Interfaces\\IUserRepo.cs",
+              "RelativeToolTip": "EntityLayer\\Interfaces\\IUserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:44:30.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITaskRepo.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\Interfaces\\ITaskRepo.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Interfaces\\ITaskRepo.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\Interfaces\\ITaskRepo.cs",
+              "RelativeToolTip": "EntityLayer\\Interfaces\\ITaskRepo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:44:47.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskRepo.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Repositories\\TaskRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\TaskRepo.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Repositories\\TaskRepo.cs*",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\TaskRepo.cs*",
+              "ViewState": "AgIAAB0AAAAAAAAAAIAwwC8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:46:40.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\TaskManager\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\TaskManager\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TaskManager\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:50:04.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20241015104844_sevenMigration.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Migrations\\20241015104844_sevenMigration.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20241015104844_sevenMigration.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Migrations\\20241015104844_sevenMigration.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\20241015104844_sevenMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:48:44.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\BusinessLayer\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\BusinessLayer\\Services\\TaskService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\TaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:48:51.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\Models\\Login.cs",
+              "RelativeToolTip": "EntityLayer\\Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:42:53.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20241014174733_SixthMigration.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Migrations\\20241014174733_SixthMigration.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20241014174733_SixthMigration.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Migrations\\20241014174733_SixthMigration.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\20241014174733_SixthMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:47:33.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\BusinessLayer\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\BusinessLayer\\Services\\UserService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\UserService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:48:32.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\TaskManager\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TaskManager\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\TaskManager\\appsettings.Development.json",
+              "RelativeToolTip": "TaskManager\\appsettings.Development.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T12:16:12.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20241013175513_FifthMigration.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Migrations\\20241013175513_FifthMigration.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20241013175513_FifthMigration.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Migrations\\20241013175513_FifthMigration.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\20241013175513_FifthMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:55:13.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20241013100059_FourthMigration.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Migrations\\20241013100059_FourthMigration.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20241013100059_FourthMigration.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Migrations\\20241013100059_FourthMigration.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\20241013100059_FourthMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T10:00:59.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20241013093807_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Migrations\\20241013093807_InitialMigration.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20241013093807_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Migrations\\20241013093807_InitialMigration.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\20241013093807_InitialMigration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T09:38:07.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20241013095215_ThirdMigration.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Migrations\\20241013095215_ThirdMigration.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20241013095215_ThirdMigration.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Migrations\\20241013095215_ThirdMigration.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\20241013095215_ThirdMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T09:52:15.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20241013094356_SecondMigration.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Migrations\\20241013094356_SecondMigration.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\20241013094356_SecondMigration.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Migrations\\20241013094356_SecondMigration.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\20241013094356_SecondMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T09:43:56.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskManagerAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\TaskManager\\TaskManagerAPI.csproj",
+              "RelativeDocumentMoniker": "TaskManager\\TaskManagerAPI.csproj",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\TaskManager\\TaskManagerAPI.csproj",
+              "RelativeToolTip": "TaskManager\\TaskManagerAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-12T11:30:07.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\TaskManager\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskManager\\appsettings.json",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\TaskManager\\appsettings.json",
+              "RelativeToolTip": "TaskManager\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T12:16:08.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TaskDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Data\\TaskDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\TaskDbContext.cs",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\Data\\TaskDbContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\TaskDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIAwwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:47:28.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\TaskManager\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TaskManager\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\TaskManager\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TaskManager\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-13T06:37:44.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EntityLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\EntityLayer.csproj",
+              "RelativeDocumentMoniker": "EntityLayer\\EntityLayer.csproj",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\EntityLayer.csproj",
+              "RelativeToolTip": "EntityLayer\\EntityLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-12T12:40:16.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BusinessLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\91834\\source\\repos\\TaskManager\\BusinessLayer\\BusinessLayer.csproj",
+              "RelativeDocumentMoniker": "BusinessLayer\\BusinessLayer.csproj",
+              "ToolTip": "C:\\Users\\91834\\source\\repos\\TaskManager\\BusinessLayer\\BusinessLayer.csproj",
+              "RelativeToolTip": "BusinessLayer\\BusinessLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-12T12:38:44.293Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

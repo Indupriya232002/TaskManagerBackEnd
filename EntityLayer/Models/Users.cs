@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+
+namespace EntityLayer.Models
+{
+    public class Users
+    {
+        [Key]
+        public int userId { get; set; }
+
+        [Required(ErrorMessage = "First name is required")]
+        public string? firstName { get; set; }
+
+        [Required(ErrorMessage = "Last name is required")]
+        public string? lastName { get; set; }
+
+        [Required(ErrorMessage = "Email is required")]
+        public string? Email { get; set; }
+
+        [Required(ErrorMessage = "Password is required")]
+        public string? password { get; set; }
+
+        [Required(ErrorMessage = "Phone number is required")]
+        public long? phoneNum { get; set; }
+
+    }
+}

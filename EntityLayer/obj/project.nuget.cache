@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "onFn/vDA5fA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\EntityLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\91834\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
