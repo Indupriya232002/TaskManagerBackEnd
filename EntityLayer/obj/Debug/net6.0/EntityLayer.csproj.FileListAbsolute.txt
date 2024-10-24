@@ -9,3 +9,15 @@ C:\Users\91834\source\repos\TaskManager\EntityLayer\obj\Debug\net6.0\EntityLayer
 C:\Users\91834\source\repos\TaskManager\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
 C:\Users\91834\source\repos\TaskManager\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
 C:\Users\91834\source\repos\TaskManager\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\EntityLayer\bin\Debug\net6.0\EntityLayer.deps.json
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\EntityLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\EntityLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\EntityLayer\obj\Debug\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfo.cs
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\EntityLayer\obj\Debug\net6.0\EntityLayer.sourcelink.json
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll

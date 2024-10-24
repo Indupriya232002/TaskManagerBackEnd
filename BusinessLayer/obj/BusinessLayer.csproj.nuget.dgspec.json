@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\91834\\source\\repos\\TaskManager\\BusinessLayer\\BusinessLayer.csproj": {}
+    "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\91834\\source\\repos\\TaskManager\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\91834\\source\\repos\\TaskManager\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\91834\\source\\repos\\TaskManager\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\91834\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\91834\\source\\repos\\TaskManager\\BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\91834\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -73,20 +73,20 @@
         }
       }
     },
-    "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\91834\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\91834\\source\\repos\\TaskManager\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\91834\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -102,8 +102,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -176,20 +176,20 @@
         }
       }
     },
-    "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\91834\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\91834\\source\\repos\\TaskManager\\EntityLayer\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\TaskManagerBackEnd\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\91834\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

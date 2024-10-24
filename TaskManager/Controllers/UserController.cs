@@ -30,5 +30,15 @@ namespace TaskManagerAPI.Controllers
         {
             return Ok(new {message = _userService.SignUp(users) });
         }
+
+
+        [Route("GetUsers")]
+        [HttpGet]
+        public IActionResult GetAllUsers()
+        {
+            var result = _userService.GetAllUsers();
+            return Ok(result);
+        }
+
     }
 }

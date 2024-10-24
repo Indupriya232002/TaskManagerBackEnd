@@ -1,4 +1,5 @@
-﻿using EntityLayer.Interfaces;
+﻿using DataAccessLayer.Repositories;
+using EntityLayer.Interfaces;
 using EntityLayer.Models;
 using System;
 using System.Collections.Generic;
@@ -24,6 +25,12 @@ namespace BusinessLayer.Services
         public object SignUp(Users users)
         {
             return _userRepo.SignUp(users);
+        }
+        
+        public List<Users> GetAllUsers()
+        {
+            return _userRepo.GetAllUsers();
+
         }
     }
 }

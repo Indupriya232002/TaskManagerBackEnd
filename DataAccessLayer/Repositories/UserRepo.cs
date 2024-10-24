@@ -1,6 +1,7 @@
 ﻿using DataAccessLayer.Data;
 using EntityLayer.Interfaces;
 using EntityLayer.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,6 +42,11 @@ namespace DataAccessLayer.Repositories
            _dbcontext.Users.Add(users);
             _dbcontext.SaveChanges();
             return "Account Created Successfully";
+        }
+
+        public List<Users> GetAllUsers()
+        {
+            return _dbcontext.Users.ToList();
         }
     }
 }

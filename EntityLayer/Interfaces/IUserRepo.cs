@@ -11,6 +11,8 @@ namespace EntityLayer.Interfaces
     {
         string Login(Login login);
         object SignUp(Users users);
-       // object Logout(Users users); 
+
+        List<Users> GetAllUsers();
+        // object Logout(Users users); 
     }
 }
