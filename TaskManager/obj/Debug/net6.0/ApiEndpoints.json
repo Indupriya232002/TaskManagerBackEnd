@@ -17,6 +17,27 @@
   },
   {
     "ContainingType": "TaskManagerAPI.Controllers.TaskController",
+    "Method": "DeleteTaskByUserIdAndTaskId",
+    "RelativePath": "api/Task/DeleteTaskByUserIdAndTaskId",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "taskId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagerAPI.Controllers.TaskController",
     "Method": "DeleteTaskDetailsById",
     "RelativePath": "api/Task/DeleteTaskDetailsById",
     "HttpMethod": "DELETE",
@@ -35,6 +56,16 @@
     "ContainingType": "TaskManagerAPI.Controllers.TaskController",
     "Method": "GetAllTasks",
     "RelativePath": "api/Task/GetAllTasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagerAPI.Controllers.TaskController",
+    "Method": "GetUserTasks",
+    "RelativePath": "api/Task/GetUserTasks",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

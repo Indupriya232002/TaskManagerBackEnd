@@ -15,6 +15,8 @@ namespace EntityLayer.Interfaces
         object UpdateTaskDetails(TaskDetails taskDetails);
 
         object DeleteTaskDetailsById(int id);
+        List<TaskDetails> GetTasksByUserId(int userId);
 
+        bool DeleteTaskByUserIdAndTaskId(int userId, int taskId);
     }
 }

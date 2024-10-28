@@ -20,8 +20,12 @@ namespace TaskManagerAPI.Controllers
         [HttpPost]
         public IActionResult Login(Login login)
         {
-            return Ok(new { message = _userService.Login(login) });
-
+            var token = _userService.Login(login);
+            if (string.IsNullOrEmpty(token))
+            {
+                return Unauthorized("Invalid Username or Password");
+            }
+            return Ok(new { token });
         }
 
         [Route("SignUp")]

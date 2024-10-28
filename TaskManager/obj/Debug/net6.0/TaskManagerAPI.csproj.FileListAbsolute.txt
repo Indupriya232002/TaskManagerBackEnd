@@ -151,3 +151,7 @@ C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\TaskManager\obj\Debug\net
 C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\TaskManager\obj\Debug\net6.0\TaskManagerAPI.pdb
 C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\TaskManager\obj\Debug\net6.0\TaskManagerAPI.genruntimeconfig.cache
 C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\TaskManager\obj\Debug\net6.0\ref\TaskManagerAPI.dll
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\TaskManager\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\TaskManager\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\TaskManager\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Administrator\Source\Repos\TaskManagerBackEnd\TaskManager\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

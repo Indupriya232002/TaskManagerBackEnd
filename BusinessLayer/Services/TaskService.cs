@@ -37,5 +37,17 @@ namespace BusinessLayer.Services
             return _taskRepo.DeleteTaskDetailsById(id);
 
         }
+
+        public bool DeleteTaskByUserIdAndTaskId(int userId, int taskId)
+        {
+            return _taskRepo.DeleteTaskByUserIdAndTaskId(userId, taskId);
+        }
+
+        public List<TaskDetails> GetTasksByUserId(int userId)
+        {
+            return _taskRepo.GetTasksByUserId(userId);
+        }
+
+         
     }
 }

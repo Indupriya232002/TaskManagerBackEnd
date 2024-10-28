@@ -27,5 +27,6 @@ namespace EntityLayer.Models
         [DefaultValue("Not Completed")]
         public string status { get; set; } = "Not Completed";
 
+        public int userId { get; set; }
     }
 }

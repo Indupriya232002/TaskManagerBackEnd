@@ -36,6 +36,18 @@ namespace DataAccessLayer.Repositories
             return "Task Deleted Successfully";
         }
 
+        public bool DeleteTaskByUserIdAndTaskId(int userId, int taskId)
+        {
+            var task = _dbContext.TaskDetails.FirstOrDefault(t => t.taskID == taskId && t.userId == userId);
+            if (task != null)
+            {
+                _dbContext.TaskDetails.Remove(task);
+                _dbContext.SaveChanges();
+                return true;
+            }
+            return false;
+        }
+
         public List<TaskDetails> GetAllTasks()
         {
             return _dbContext.TaskDetails.ToList();
@@ -46,6 +58,11 @@ namespace DataAccessLayer.Repositories
             _dbContext.TaskDetails.Update(taskDetails);
             _dbContext.SaveChanges();
             return taskDetails;
+        }
+
+        public List<TaskDetails> GetTasksByUserId(int userId)
+        {
+             return _dbContext.TaskDetails.Where(t => t.userId == userId).ToList();
         }
     }
 }
