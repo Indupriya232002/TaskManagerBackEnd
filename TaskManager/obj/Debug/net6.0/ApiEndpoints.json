@@ -116,6 +116,38 @@
   },
   {
     "ContainingType": "TaskManagerAPI.Controllers.UserController",
+    "Method": "RequestPasswordReset",
+    "RelativePath": "api/User/RequestPasswordReset",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EntityLayer.Models.PasswordResetRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagerAPI.Controllers.UserController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/User/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EntityLayer.Models.PasswordResetConfirmation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagerAPI.Controllers.UserController",
     "Method": "SignUp",
     "RelativePath": "api/User/SignUp",
     "HttpMethod": "POST",

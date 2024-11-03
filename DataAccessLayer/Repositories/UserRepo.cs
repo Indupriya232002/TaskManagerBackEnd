@@ -91,5 +91,51 @@ namespace DataAccessLayer.Repositories
         {
             return _dbcontext.Users.ToList();
         }
+
+        public Users GetUserByEmail(string email)
+        {
+            return _dbcontext.Users.FirstOrDefault(u => u.Email == email);
+        }
+
+        public bool ResetPasswordWithToken(string email, string newPassword)
+        {
+            var user = _dbcontext.Users.FirstOrDefault(u => u.Email == email);
+            if (user == null) return false;
+
+            user.password = newPassword;
+            //user.PasswordResetToken = null;
+            //user.TokenExpirationTime = null;
+            _dbcontext.SaveChanges();
+            return true;
+        }
+
+        public string GeneratePasswordResetToken(string email)
+        {
+            var user = _dbcontext.Users.FirstOrDefault(u => u.Email == email);
+            if (user == null) return null;
+
+            var token = Guid.NewGuid().ToString();
+            //user.PasswordResetToken = token;
+            user.TokenExpirationTime = DateTime.Now.AddHours(1);
+
+            _dbcontext.SaveChanges();
+            return token;
+        }
+
+        public string GeneratePasswordResetOtp(string email)
+        {
+            var user = _dbcontext.Users.FirstOrDefault(u => u.Email == email);
+            if (user == null) return null;
+
+            // Generate a 6-digit OTP
+            var otp = new Random().Next(100000, 999999).ToString();
+            //user.PasswordResetToken = otp;
+            user.TokenExpirationTime = DateTime.Now.AddMinutes(10); // Set a 10-minute expiration
+
+            _dbcontext.SaveChanges();
+            return otp;
+        }
+
+       
     }
 }

@@ -14,5 +14,10 @@ namespace EntityLayer.Interfaces
 
         List<Users> GetAllUsers();
         // object Logout(Users users); 
+
+        Users GetUserByEmail(string email);
+        string GeneratePasswordResetToken(string email);
+        bool ResetPasswordWithToken(string email, string newPassword);
+        string GeneratePasswordResetOtp(string email);
     }
 }

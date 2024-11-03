@@ -25,7 +25,10 @@ namespace EntityLayer.Models
         public string? password { get; set; }
 
         [Required(ErrorMessage = "Phone number is required")]
-        public long? phoneNum { get; set; }
+        public string? phoneNum { get; set; }
+
+        public string? PasswordResetToken { get; set; }
+        public DateTime? TokenExpirationTime { get; set; }
 
     }
 }

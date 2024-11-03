@@ -16,10 +16,21 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddCors();
 builder.Services.AddControllers()
                 .AddNewtonsoftJson();
+
+builder.Services.AddControllersWithViews();
+builder.Services.AddSession(options =>
+{
+    options.Cookie.Name = ".YourApp.Session";
+    options.IdleTimeout = TimeSpan.FromMinutes(30);  // Set session timeout as per your requirement
+    options.Cookie.IsEssential = true;
+});
+
+
+
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAllOrigins",
-        builder => builder.AllowAnyOrigin()
+    options.AddPolicy("AllowLocalNetwork",
+        builder => builder.WithOrigins("http://192.168.129.33:4200")
                           .AllowAnyMethod()
                           .AllowAnyHeader());
 });
@@ -58,6 +69,8 @@ builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<IUserRepo, UserRepo>();
 builder.Services.AddScoped<TaskService>();
 builder.Services.AddScoped<ITaskRepo, TaskRepo>();
+builder.Services.AddScoped<EmailService>();
+
 
 var app = builder.Build();
 
@@ -72,6 +85,7 @@ if (app.Environment.IsDevelopment())
                       .AllowAnyHeader()
                       .SetIsOriginAllowed(origin => true)
                       .AllowCredentials());
+    app.UseCors("AllowLocalNetwork");
 }
 
 app.UseHttpsRedirection();

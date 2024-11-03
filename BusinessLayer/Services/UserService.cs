@@ -32,5 +32,26 @@ namespace BusinessLayer.Services
             return _userRepo.GetAllUsers();
 
         }
+
+        public Users GetUserByEmail(string email)
+        {
+            return _userRepo.GetUserByEmail(email);
+        }
+
+        public string GeneratePasswordResetToken(string email)
+        {
+            return _userRepo.GeneratePasswordResetToken(email);
+        }
+
+        public bool ResetPasswordWithToken(string email, string newPassword)
+        {
+            return _userRepo.ResetPasswordWithToken(email, newPassword);
+        }
+
+        public string GeneratePasswordResetOtp(string email)
+        {
+            return _userRepo.GeneratePasswordResetOtp(email);
+        }
+
     }
 }
